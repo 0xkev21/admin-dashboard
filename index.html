@@ -9,7 +9,8 @@
 <body>
     <div class="sidebar">
         <div class="title">
-            <img src="" alt="Dashboard Logo" class="dashboard-logo">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>view-dashboard</title><path d="M13,3V9H21V3M13,21H21V11H13M3,21H11V15H3M3,13H11V3H3V13Z" /></svg>
+            <span>Dashboard</span>
         </div>
         <div class="main-menu">
             <div class="home">
@@ -22,7 +23,7 @@
             </div>
             <div class="messages">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>message</title><path d="M20,2H4A2,2 0 0,0 2,4V22L6,18H20A2,2 0 0,0 22,16V4C22,2.89 21.1,2 20,2Z" /></svg>
-                <span>Message</span>
+                <span>Messages</span>
             </div>
             <div class="history">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>history</title><path d="M13.5,8H12V13L16.28,15.54L17,14.33L13.5,12.25V8M13,3A9,9 0 0,0 4,12H1L4.96,16.03L9,12H6A7,7 0 0,1 13,5A7,7 0 0,1 20,12A7,7 0 0,1 13,19C11.07,19 9.32,18.21 8.06,16.94L6.64,18.36C8.27,20 10.5,21 13,21A9,9 0 0,0 22,12A9,9 0 0,0 13,3" /></svg>
@@ -55,16 +56,19 @@
     <div class="nav">
         <div class="nav-top">
             <div class="search">
-                <label for="search-bar"><span aria-label="Search" class="search-icon">
+                <label for="search-bar">
+                    <span aria-label="Search" class="search-icon" title="Search Icon">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>magnify</title><path d="M9.5,3A6.5,6.5 0 0,1 16,9.5C16,11.11 15.41,12.59 14.44,13.73L14.71,14H15.5L20.5,19L19,20.5L14,15.5V14.71L13.73,14.44C12.59,15.41 11.11,16 9.5,16A6.5,6.5 0 0,1 3,9.5A6.5,6.5 0 0,1 9.5,3M9.5,5C7,5 5,7 5,9.5C5,12 7,14 9.5,14C12,14 14,12 14,9.5C14,7 12,5 9.5,5Z" /></svg>
-                </span></label>
+                    </span>
+                </label>
                 <input type="search" name="search-bar" id="search-bar">
             </div>
-            <div class="noti">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>bell-outline</title><path d="M10 21H14C14 22.1 13.1 23 12 23S10 22.1 10 21M21 19V20H3V19L5 17V11C5 7.9 7 5.2 10 4.3V4C10 2.9 10.9 2 12 2S14 2.9 14 4V4.3C17 5.2 19 7.9 19 11V17L21 19M17 11C17 8.2 14.8 6 12 6S7 8.2 7 11V18H17V11Z" /></svg>
-            </div>
             <div class="profile-small">
+                <div class="noti">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>bell-outline</title><path d="M10 21H14C14 22.1 13.1 23 12 23S10 22.1 10 21M21 19V20H3V19L5 17V11C5 7.9 7 5.2 10 4.3V4C10 2.9 10.9 2 12 2S14 2.9 14 4V4.3C17 5.2 19 7.9 19 11V17L21 19M17 11C17 8.2 14.8 6 12 6S7 8.2 7 11V18H17V11Z" /></svg>
+                </div>
                 <img src="" alt="Profile Picture" class=".small-pic">
+                <p class="admin-name">Kev</p>
             </div>
         </div>
         <div class="nav-bottom">
@@ -73,7 +77,7 @@
             </div>
             <div class="welcome-message">
                 <p>Hi there,</p>
-                <h2 class="admin-name">Kev (@0xKev)</h2>
+                <h2 class="admin-name">Kev (@0xkev)</h2>
             </div>
             <div class="action-buttons">
                 <button type="button">New</button>
