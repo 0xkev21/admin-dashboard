@@ -251,6 +251,10 @@ body {
     box-shadow: var(--card-shadow);
 }
 
+.trending-container {
+    height: min(100%, 320px);
+}
+
 .announcements-container {
     grid-template-rows: repeat(3, 1fr);
 }
